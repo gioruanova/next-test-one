@@ -16,7 +16,7 @@ export const MainContainer = ({
 
   return (
     <div
-      className={`max-w-[1000px] w-full text-center mt-5 p-4 rounded-2xl items-center justify-center m-auto ${bgClass}`}
+      className={`flex flex-col max-w-[1000px] w-full text-center mt-5 p-4 rounded items-center justify-center m-auto ${bgClass}`}
     >
       {children}
     </div>

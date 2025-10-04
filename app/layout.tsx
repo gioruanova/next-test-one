@@ -14,7 +14,7 @@ const geistMono = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Main Homepage",
-  description: "Developed by Gio",
+  description: "Developed by Next",
 };
 
 export default function RootLayout({
