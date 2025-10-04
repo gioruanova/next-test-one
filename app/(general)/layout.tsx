@@ -9,7 +9,7 @@ export default function GeneralLayout({
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-center p3">
+      <div className="flex flex-col items-center justify-center p-3">
         <h1 className="text-5xl mb-5 uppercase underline mt-5">Layout (General)</h1>
         <MainContainer bgColor="dark">{children}</MainContainer>
       </div>
